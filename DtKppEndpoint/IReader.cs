@@ -5,10 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace DtKppEndpoint {
-    class Program {
-        static void Main(string[] args) {
-            Endpoint e = new Endpoint();
-            e.start();
-        }
+    interface IReader {
+        string getBarCode();
     }
 }

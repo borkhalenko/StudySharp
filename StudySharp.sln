@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DtReports", "DtReports\DtRe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DtHelpDesk", "DtHelpDesk\DtHelpDesk.csproj", "{ADBF4DA6-3439-45A0-B36C-FB184E230281}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DtKppEndpoint", "DtKpp\DtKppEndpoint.csproj", "{F6190B73-62AC-4530-B605-7B14284DDA5E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DtKppEndpoint", "DtKppEndpoint\DtKppEndpoint.csproj", "{F6190B73-62AC-4530-B605-7B14284DDA5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
