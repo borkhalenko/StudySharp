@@ -48,6 +48,8 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SimpleReader.cs" />
+    <Compile Include="Visitor.cs" />
+    <Compile Include="VisitorStorage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
