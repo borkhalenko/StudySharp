@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -44,9 +45,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Endpoint.cs" />
+    <Compile Include="IOutStorageReader.cs" />
     <Compile Include="IReader.cs" />
+    <Compile Include="OutStorageType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings.cs" />
     <Compile Include="SimpleReader.cs" />
     <Compile Include="Visitor.cs" />
     <Compile Include="VisitorStorage.cs" />

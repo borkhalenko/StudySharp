@@ -7,22 +7,33 @@ using System.Threading.Tasks;
 namespace DtKppEndpoint {
     public class VisitorStorage {
         private Dictionary<int, Visitor> visitorStorage;
-        private Dictionary<string, int> codeStorage; 
+        private Dictionary<string, int> codeStorage;
 
+        private IOutStorageReader outStorage;
 
-        //public Visitor GetVisitorById(Id id) {
-        //    if (storage.ContainsKey(id)) {
-        //        return storage[id];
-        //    }
-        //    else {
-        //        return null;
-        //    }
-        //} 
+        public void ChangeOutStorageReader() { }
 
-        //public bool ContainsCode()
+        public Visitor GetVisitorById(int id) {
+            if (visitorStorage.ContainsKey(id)) {
+                return visitorStorage[id];
+            }
+            else {
+                return null;
+            }
+        }
 
-        //public bool ContainsId(Guid id) {
-        //    return storage.ContainsKey(id);
-        //}
+        public bool ContainsCode(string code) {
+            if (codeStorage.ContainsKey(code)) {
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+
+        public bool UpdateStorage() {
+            
+            return true;
+        }
     }
 }

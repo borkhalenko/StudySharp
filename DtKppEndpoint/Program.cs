@@ -7,8 +7,10 @@ using System.Threading.Tasks;
 namespace DtKppEndpoint {
     class Program {
         static void Main(string[] args) {
-            Endpoint e = new Endpoint();
-            e.start();
+            Settings settings = new Settings();
+            Console.WriteLine(settings.GetStorageType());
+            //Endpoint e = new Endpoint();
+            //e.start();
         }
     }
 }
