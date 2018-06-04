@@ -12,8 +12,8 @@ namespace DtHelpDesk.Controllers {
             return View("NewIndex");
         }
 
-        public string About() {
-            return "About";
+        public ViewResult NewOrder() {
+            return View();
         }
         //public IActionResult Index()
         //{
