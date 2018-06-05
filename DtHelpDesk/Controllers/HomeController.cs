@@ -12,7 +12,14 @@ namespace DtHelpDesk.Controllers {
             return View("NewIndex");
         }
 
+        [HttpGet]
         public ViewResult NewOrder() {
+            return View();
+        }
+
+        [HttpPost]
+        public ViewResult NewOrder(WorkOrderModel order) {
+            
             return View();
         }
         //public IActionResult Index()

@@ -17,7 +17,17 @@
 </head>
 <body>
     <h1>Fill in all the fields:</h1>
-
+    <form asp-action="NewOrder" method="post">
+        <p>
+            <label asp-for="Department">Department:</label>
+            <input asp-for="Department" />
+        </p>
+        <p>
+            <label asp-for="Description">Description:</label>
+            <input asp-for="Description" />
+        </p>
+        <button type="submit"> Save order</button>
+    </form>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="~/lib/jquery/dist/jquery.js"></script>
