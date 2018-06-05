@@ -1,0 +1,30 @@
+﻿@model DtHelpDesk.Models.WorkOrderModel
+
+@{
+    Layout = null;
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">@*, shrink-to-fit=no">*@
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <title>New order was saved!</title>
+</head>
+<body>
+    <h2>Thanks. You'r order was saved.</h2>
+    <h3>Department: @Model.Department</h3>
+    <h3>Description: @Model.Description</h3>
+    <br />
+    <h4>Click <a asp-action="ShowAllOrders">this</a> to show all saved orders.</h4>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/js/popper.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>

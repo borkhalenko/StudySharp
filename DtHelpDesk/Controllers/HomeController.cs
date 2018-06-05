@@ -19,8 +19,12 @@ namespace DtHelpDesk.Controllers {
 
         [HttpPost]
         public ViewResult NewOrder(WorkOrderModel order) {
-            
-            return View();
+            WorkOrderRepository.AddOrder(order);
+            return View("OrderSaved", order);
+        }
+
+        public ViewResult ShowAllOrders() {
+            return View(WorkOrderRepository.Orders);
         }
         //public IActionResult Index()
         //{

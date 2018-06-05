@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace DtHelpDesk.Models {
     public class WorkOrderModel {
-        public string Department;
-        public string Description;
+        public string Department { get; set; }
+        public string Description { get; set; }
     }
 }
