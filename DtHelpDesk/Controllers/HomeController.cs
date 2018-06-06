@@ -19,8 +19,13 @@ namespace DtHelpDesk.Controllers {
 
         [HttpPost]
         public ViewResult NewOrder(WorkOrderModel order) {
-            WorkOrderRepository.AddOrder(order);
-            return View("OrderSaved", order);
+            if (ModelState.IsValid) {
+                WorkOrderRepository.AddOrder(order);
+                return View("OrderSaved", order);
+            }
+            else {
+                return View();
+            }
         }
 
         public ViewResult ShowAllOrders() {
