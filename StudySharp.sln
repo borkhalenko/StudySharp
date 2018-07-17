@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DtReports", "DtReports\DtRe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DtKppEndpoint", "DtKppEndpoint\DtKppEndpoint.csproj", "{F6190B73-62AC-4530-B605-7B14284DDA5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DtHelpDesk", "DtHelpDesk\DtHelpDesk.csproj", "{5287E32B-9054-4063-AA05-A1137121CE53}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DtHelpDesk", "DtHelpDesk\DtHelpDesk.csproj", "{A0CBDB10-3456-4326-99FD-1E884AFE09A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{F6190B73-62AC-4530-B605-7B14284DDA5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6190B73-62AC-4530-B605-7B14284DDA5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6190B73-62AC-4530-B605-7B14284DDA5E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5287E32B-9054-4063-AA05-A1137121CE53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5287E32B-9054-4063-AA05-A1137121CE53}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5287E32B-9054-4063-AA05-A1137121CE53}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5287E32B-9054-4063-AA05-A1137121CE53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0CBDB10-3456-4326-99FD-1E884AFE09A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0CBDB10-3456-4326-99FD-1E884AFE09A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0CBDB10-3456-4326-99FD-1E884AFE09A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0CBDB10-3456-4326-99FD-1E884AFE09A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
